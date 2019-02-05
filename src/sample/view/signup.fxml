@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.signupController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="79.0" prefWidth="700.0" style="-fx-background-color: red;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="36.0" prefHeight="17.0" prefWidth="119.0" text="TO DO" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="79.0" prefHeight="38.0" prefWidth="700.0" style="-fx-background-color: grey;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="318.0" layoutY="3.0" prefHeight="20.0" prefWidth="102.0" text="Sign up " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="SignupFirstName" layoutX="237.0" layoutY="125.0" prefHeight="27.0" prefWidth="274.0" promptText="FirstName" />
+      <TextField fx:id="SignupLastName" layoutX="237.0" layoutY="157.0" prefHeight="27.0" prefWidth="274.0" promptText="Last Name" />
+      <TextField fx:id="SignupUserName" layoutX="237.0" layoutY="191.0" prefHeight="27.0" prefWidth="274.0" promptText="UserName" />
+      <TextField fx:id="SignupLocation" layoutX="237.0" layoutY="290.0" prefHeight="27.0" prefWidth="274.0" promptText="Location" />
+      <CheckBox fx:id="SignupcheckboxMale" layoutX="237.0" layoutY="226.0" mnemonicParsing="false" text="Male" />
+      <CheckBox fx:id="SignupCheckboxFemale" layoutX="323.0" layoutY="226.0" mnemonicParsing="false" text="Female" />
+      <TextField fx:id="SignupPassword" layoutX="237.0" layoutY="255.0" prefHeight="27.0" prefWidth="274.0" promptText="Password" />
+      <Button fx:id="Signupbutton" layoutX="323.0" layoutY="336.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="102.0" style="-fx-background-color: black;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
